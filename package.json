@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "node ./src/bot.mjs",
+    "dev": "nodemon ./src/bot.mjs"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "node-telegram-bot-api": "^0.59.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
